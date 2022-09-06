@@ -1,0 +1,55 @@
+
+.wrapper {
+    margin-top: 50%;
+}
+
+.box {
+    // border: 1px solid red;
+    width: 160px;
+    height: 160px;
+    background-color: red;
+    margin-left: 46%;
+    
+    border-radius: 50%;
+    animation: Sun 27s infinite ;
+    z-index: -1;
+   
+}
+
+@keyframes Sun {
+    0% {
+        transform: translateY(80px);
+        transform: rotate(180deg);
+    }
+
+    50% {
+         transform: translateY(200px);
+    }
+
+    100% {
+        transform: rotate(180deg);
+    }
+}
+
+
+ .wox .boxer {
+    margin-right: -110px;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(139, 201, 46);;
+    padding-left: 115px;
+    transform: rotate(137deg);
+    margin-left: 90px;
+    margin-top: 30px;
+ }
+
+ .wox {
+    display: flex;
+    border-bottom: 355px solid rgb(139, 201, 46);
+    height: 197px;
+    
+ }
+
+ .boxer :nth-child(2) {
+    margin-right: 10px;
+ }
